@@ -6,11 +6,11 @@ var app = express();
 
 app.use(express.static('./Website'));
 
-app.get('/all_product_info',function(req,res){
+app.get('/products',function(req,res){
     let sql = 'Select * from Product;';
     connection.query(sql, function(err, results){
         if(err) throw err;
-        res.send(results);
+        res.json(results);
 
     });
     
