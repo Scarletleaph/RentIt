@@ -1,0 +1,14 @@
+[
+    {
+        "Product Id" : 1,
+        "ProductName": "Product1",
+        "RentorId" : 1,
+        "RentAmount": 1000
+    },
+    {
+        "Product Id" : 1,
+        "ProductName": "Product2",
+        "RentorId" : 1,
+        "RentAmount": 5000
+    }
+]
