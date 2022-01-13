@@ -40,7 +40,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `RentIt`.`Product` (
   `Product Id` INT NOT NULL,
   `ProductName` VARCHAR(45) NOT NULL,
-  `Rentor` VARCHAR(45) NOT NULL,
+  `RentorID` int NOT NULL,
   `Rent Amount` INT NULL,
   PRIMARY KEY (`Product Id`))
 ENGINE = InnoDB;
